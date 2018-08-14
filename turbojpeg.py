@@ -30,7 +30,7 @@ import math
 # default libTurboJPEG library path
 DEFAULT_LIB_PATH = {
     'Darwin' : '/usr/local/opt/jpeg-turbo/lib/libturbojpeg.dylib',   # for Mac OS X
-    'Linux'  : '/opt/libjpeg-turbo/lib64/libturbojpeg.so',           # for Linux
+    'Linux'  : '/usr/lib/x86_64-linux-gnu/libturbojpeg.so.0',           # for Linux
     'Windows': 'C:/libjpeg-turbo64/bin/turbojpeg.dll'                # for Windows
 }
 
